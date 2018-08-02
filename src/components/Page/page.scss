@@ -1,0 +1,59 @@
+.page {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+#responseBanner {
+  text-align: center;
+}
+#form {
+  position: relative;
+  right: 65px;
+}
+#dropzone {
+  display: block;
+  margin: auto auto;
+  width: 260px;
+  height: 200px;
+  border: 5px dashed;
+}
+#dzText {
+  position: relative;
+  top: 80px;
+}
+#filesToUpload {
+  position: relative;
+  right: 74px;
+}
+#check {
+  color: green;
+}
+#download {
+  display: flex;
+  justify-content: center;
+}
+
+.select-container::before {
+  z-index: 100;
+  top: 1.3em;
+  right: 0.7em;
+}
+
+.select-container select {
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  min-height: 30px;
+}
+
+.select-container {
+  margin: 10px;
+}
+
+.select-container:first-of-type {
+  margin: 10px;
+}
+
+.select-container:last-of-type {
+  margin: 10px;
+}

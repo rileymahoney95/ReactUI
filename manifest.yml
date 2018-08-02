@@ -1,0 +1,17 @@
+---
+applications:
+- name: SupplyChainNetworkFlowPath-UI
+  memory: 512M
+  instances: 1
+  command: npm start
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  route: supplychainnetworkflowpath-ui.apps-np.homedepot.com
+  services:
+    - supplychainnetworkflowpath-sso
+  env:
+   config: '{
+        "SSO_URL": "https://sso.login.run-np.homedepot.com",
+        "SSO_CLIENT_ID": "",
+        "FLOW_PATH_URL":"https://supplychainnetworkflowpath-q2.apps-np.homedepot.com/directFulfillment/vendorSKUNetwork"
+    }'
+      

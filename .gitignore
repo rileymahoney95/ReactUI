@@ -1,0 +1,7 @@
+public/*
+node_modules
+.idea
+.DS_Store
+src/test/test_results.xml
+.env
+yarn-error.log

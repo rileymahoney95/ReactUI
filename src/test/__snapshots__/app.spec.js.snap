@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Component renders App without crashing 1`] = `
+<div
+  className="progress-linear indeterminate"
+/>
+`;
+
+exports[`<Header /> Component renders Header without crashing 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header-logo"
+  >
+    <i
+      className="icon_homedepot"
+    />
+  </div>
+  <div
+    className="header-info"
+  >
+    <label
+      className="product-info"
+    >
+      Supply Chain Network Flow Path
+    </label>
+    <label
+      className="user-info"
+    >
+       
+    </label>
+  </div>
+  <div
+    className="header-actions"
+  >
+    <button
+      className="button primary sm"
+      id="logoutBtn"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<Main /> Component renders Main without crashing 1`] = `
+<Redirect
+  push={false}
+  to="/"
+/>
+`;
+
+exports[`<Page /> Component renders Page without crashing 1`] = `
+<div
+  className="page"
+>
+  <div
+    className=""
+    id="responseBanner"
+  >
+    <span
+      className="message"
+      id="responseMessage"
+    />
+    <span
+      className="close"
+      onClick={[Function]}
+    />
+  </div>
+  <t
+    accept=".csv"
+    className="dz-box"
+    disableClick={false}
+    disablePreview={false}
+    disabled={false}
+    id="dropzone"
+    inputProps={Object {}}
+    maxSize={Infinity}
+    minSize={0}
+    multiple={true}
+    onDrop={[Function]}
+    preventDropOnDocument={true}
+  >
+    <div
+      className="dz-message"
+      data-dz-message={true}
+      id="dzText"
+    >
+      <span>
+        Select or Drop File
+      </span>
+    </div>
+  </t>
+  <p
+    id="filesToUpload"
+  >
+    <b>
+      File to Upload
+    </b>
+  </p>
+  <p>
+    <i
+      className="icon_check-circle-filled"
+      hidden={true}
+      id="check"
+    />
+    No file selected
+  </p>
+  <div
+    id="download"
+  >
+    <a
+      download={true}
+      href="../SupplyChainNetworkFlowPath_Template.csv"
+      target="_blank"
+    >
+      <button
+        className="button primary sm"
+        title="Download Button"
+      >
+        Download Template
+      </button>
+    </a>
+    <span
+      onClick={[Function]}
+    >
+      <button
+        className="button primary sm"
+        disabled={true}
+        id="btnUpload"
+      >
+        Upload
+      </button>
+    </span>
+  </div>
+</div>
+`;

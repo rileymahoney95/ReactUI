@@ -1,0 +1,11 @@
+pairs:
+    rm: Riley Mahoney; riley_r_mahoney
+    sl: Sam Loop; samantha_loop
+    em: Elishuwon Mitchell; elishuwon_mitchell
+    nr: Nathan Ridling; nathan_ridling
+    tj: Teresa Johnson; teresa_johnson
+email:
+    prefix: pair
+    domain: homedepot.com
+    no_solo_prefix: true
+global: false
